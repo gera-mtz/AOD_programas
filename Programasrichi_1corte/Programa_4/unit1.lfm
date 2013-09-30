@@ -1,0 +1,74 @@
+object Form1: TForm1
+  Left = 167
+  Height = 240
+  Top = 200
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 320
+  OnCreate = FormCreate
+  LCLVersion = '1.0.10.0'
+  object Button1: TButton
+    Left = 50
+    Height = 25
+    Top = 151
+    Width = 75
+    Caption = 'Registrar'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 200
+    Height = 25
+    Top = 151
+    Width = 75
+    Caption = 'Borrar'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 65
+    Height = 16
+    Top = 29
+    Width = 33
+    Caption = 'Clave:'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 50
+    Height = 16
+    Top = 61
+    Width = 48
+    Caption = 'Nombre:'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 61
+    Height = 16
+    Top = 95
+    Width = 37
+    Caption = 'Precio:'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 104
+    Height = 23
+    Top = 22
+    Width = 171
+    TabOrder = 2
+  end
+  object Edit2: TEdit
+    Left = 104
+    Height = 23
+    Top = 54
+    Width = 171
+    TabOrder = 3
+  end
+  object Edit3: TEdit
+    Left = 104
+    Height = 23
+    Top = 88
+    Width = 171
+    TabOrder = 4
+  end
+end
