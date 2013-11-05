@@ -108,8 +108,10 @@ border-radius: 12px;
 box-shadow: 1px 1px 3px #000;
 }
 
-div#part1 div#part2 {
-	display:inline-block;
+.thumb{
+     height: 300px;
+     border: 1px solid #000;
+     margin: 10px 5px 0 0;
 }
 
 footer {
